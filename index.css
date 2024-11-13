@@ -1,0 +1,61 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7c8d9; /* Light pink background */
+    color: #444;
+}
+
+/* Container styling */
+.entry-container {
+    background-color: #f8d7e0; /* Slightly darker pink for contrast */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #e3a8b8, -10px -10px 20px #ffffff;
+    text-align: center;
+    max-width: 350px;
+}
+
+/* Heading styling */
+.entry-container h2 {
+    margin-bottom: 30px;
+    color: #ab6a83; /* Soft pink-purple for text */
+}
+
+/* Button styling */
+.link-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.entry-link {
+    background-color: #f8d7e0;
+    color: #ab6a83;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px #e3a8b8, -5px -5px 10px #ffffff;
+    transition: all 0.2s ease;
+}
+
+.entry-link:hover {
+    box-shadow: inset 5px 5px 10px #e3a8b8, inset -5px -5px 10px #ffffff;
+    color: #93495c; /* Darker pink on hover */
+}
+
+.entry-link:active {
+    box-shadow: inset 3px 3px 6px #e3a8b8, inset -3px -3px 6px #ffffff;
+    color: #76424f; /* Even darker pink when active */
+}
