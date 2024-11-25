@@ -29,13 +29,13 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
         ");
         while ($row = $result->fetch_assoc()) {
         ?>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4 project-card">
                 <div class="card h-100 shadow-sm">
                 <div class="image-container">
                     <?php if (!empty($row['photo_path']) && file_exists($row['photo_path'])): ?>
-                        <img src="<?php echo htmlspecialchars($row['photo_path']); ?>" class="card-img-top" alt="<?php echo htmlspecialchars($row['project_name']); ?>">
+                        <img src="<?php echo htmlspecialchars($row['photo_path']); ?>" class="card-img-top project-image" alt="<?php echo htmlspecialchars($row['project_name']); ?>">
                     <?php else: ?>
-                        <img src="placeholder.jpg" class="card-img-top" alt="Placeholder Image">
+                        <img src="placeholder.jpg" class="card-img-top project-image" alt="Placeholder Image">
                     <?php endif; ?>
                 </div>
                     <div class="card-body">
