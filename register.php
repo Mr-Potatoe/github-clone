@@ -51,8 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="input-group">
                 <label for="role">Role</label>
                 <select id="role" name="role">
-                    <option value="student">Student</option>
-                    <option value="admin">Admin</option>
+                    <option value="student" selected>Student</option>
                 </select>
             </div>
             <button type="submit">Register</button>
