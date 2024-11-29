@@ -25,11 +25,6 @@ CREATE TABLE `projects` (
   `project_members` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- --------------------------------------------------------
-
---
--- Table structure for table `project_members`
---
 
 CREATE TABLE `project_members` (
   `member_id` int(11) NOT NULL,
@@ -37,11 +32,7 @@ CREATE TABLE `project_members` (
   `member_name` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- --------------------------------------------------------
 
---
--- Table structure for table `users`
---
 
 CREATE TABLE `users` (
   `user_id` int(11) NOT NULL,
@@ -50,9 +41,7 @@ CREATE TABLE `users` (
   `role` enum('admin','student') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `users`
---
+
 
 INSERT INTO `users` (`user_id`, `username`, `password`, `role`) VALUES
 (1, 'agliparia.kevin@gmail.com', '$2y$10$1OFJh98sYAz5pCP51E3zAuegutRkEWhgXIQM2c.Q3CDKQFWQfwnXS', 'student'),

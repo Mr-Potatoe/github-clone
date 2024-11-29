@@ -1,0 +1,205 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a297cc96bef9c081c4056fad5f2fcd13",
+    "packages": [
+        {
+            "name": "peppers/example-app",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sousarmb/peppers-example-app.git",
+                "reference": "4673441593b12584ed6c0ae5f3cc5944fa500e37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sousarmb/peppers-example-app/zipball/4673441593b12584ed6c0ae5f3cc5944fa500e37",
+                "reference": "4673441593b12584ed6c0ae5f3cc5944fa500e37",
+                "shasum": ""
+            },
+            "require": {
+                "peppers/framework": ">=v1.0",
+                "php": ">=8.1"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "App\\": "App/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ricardo Sousa",
+                    "email": "peppers.php.framework@gmail.com"
+                }
+            ],
+            "description": "Example application showcasing Peppers PHP framework core functionalities and how to use them",
+            "keywords": [
+                "framework",
+                "mvc",
+                "orm",
+                "peppers",
+                "routing"
+            ],
+            "support": {
+                "issues": "https://github.com/sousarmb/peppers-example-app/issues",
+                "source": "https://github.com/sousarmb/peppers-example-app/tree/v1.0"
+            },
+            "time": "2022-11-01T23:33:51+00:00"
+        },
+        {
+            "name": "peppers/framework",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sousarmb/peppers-php-framework.git",
+                "reference": "d012745882e12193f6b65482141ce8871f0eb9eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sousarmb/peppers-php-framework/zipball/d012745882e12193f6b65482141ce8871f0eb9eb",
+                "reference": "d012745882e12193f6b65482141ce8871f0eb9eb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Peppers\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ricardo Sousa",
+                    "email": "peppers.php.framework@gmail.com"
+                }
+            ],
+            "description": "A basic Web MVC framework",
+            "keywords": [
+                "framework",
+                "mvc",
+                "orm",
+                "peppers",
+                "routing"
+            ],
+            "support": {
+                "issues": "https://github.com/sousarmb/peppers-php-framework/issues",
+                "source": "https://github.com/sousarmb/peppers-php-framework/tree/v1.0"
+            },
+            "time": "2022-11-01T22:50:20+00:00"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v5.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "6e1f75f420f68e1d52733b8e407fc7c3766c9dba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6e1f75f420f68e1d52733b8e407fc7c3766c9dba",
+                "reference": "6e1f75f420f68e1d52733b8e407fc7c3766c9dba",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v5.3.3"
+            },
+            "time": "2024-02-20T15:14:29+00:00"
+        },
+        {
+            "name": "twbs/bootstrap-icons",
+            "version": "v1.11.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/icons.git",
+                "reference": "8d88686c03c3768a2d82ba4f20c3c4e1b100fa29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/icons/zipball/8d88686c03c3768a2d82ba4f20c3c4e1b100fa29",
+                "reference": "8d88686c03c3768a2d82ba4f20c3c4e1b100fa29",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "Official open source SVG icon library for Bootstrap",
+            "homepage": "https://icons.getbootstrap.com/",
+            "keywords": [
+                "bootstrap",
+                "icon font",
+                "icons",
+                "svg"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/icons/issues",
+                "source": "https://github.com/twbs/icons/tree/v1.11.3"
+            },
+            "time": "2024-01-03T15:44:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
